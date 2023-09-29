@@ -8,7 +8,7 @@ export default function Category() {
     <main>
       <div className="container">
         <div className="inner">
-          <h1 className="title">Bizning podkatalog</h1>
+          <h1 className="title">Наш каталог</h1>
           <div className="cards">
             <div
               className="card-item"

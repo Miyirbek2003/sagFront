@@ -12,21 +12,21 @@ export default function Modal({ isModal, setIsModal }) {
           <span className="quit" onClick={() => setIsModal(false)}>
             &times;
           </span>
-          <h3>Xarid qilish</h3>
+          <h3>Купить</h3>
           <form onSubmit={onSent}>
             <input
               type="text"
-              placeholder="Ism"
+              placeholder="Имя"
               name="name"
               autoComplete="false"
             />
             <input
               type="text"
-              placeholder="Telefon raqam"
+              placeholder="Телефон номер"
               name="phone"
               autoComplete="false"
             />
-            <button>Yuborish</button>
+            <button>Отправить</button>
           </form>
         </div>
       </div>

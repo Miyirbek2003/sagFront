@@ -8,28 +8,28 @@ export default function MainC() {
     <main>
       <div className="container">
         <div className="inner">
-          <h1 className="title">Bizning katalog</h1>
+          <h1 className="title">Наш каталог</h1>
           <div className="cards">
             <div
               className="card-item"
               onClick={() => navigate("/category/gilem")}
             >
               <img src={catimg} alt="" />
-              <h3>Gilamlar</h3>
+              <h3>Ковры</h3>
             </div>
             <div
               className="card-item"
               onClick={() => navigate("/category/postel")}
             >
               <img src={postel} alt="" />
-              <h3>Postellar</h3>
+              <h3>Постели</h3>
             </div>
             <div
               className="card-item"
               onClick={() => navigate("/category/gazon")}
             >
               <img src={gazon} alt="" />
-              <h3>Gazonlar</h3>
+              <h3>Газоны</h3>
             </div>
           </div>
         </div>

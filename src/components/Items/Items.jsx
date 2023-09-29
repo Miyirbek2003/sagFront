@@ -16,19 +16,18 @@ export default function Items() {
   const ratingChanged = (newRating) => {
     return null;
   };
-  
+
   return (
     <main>
-      {isModal && <Modal  isModal={isModal} setIsModal={setIsModal} />}
+      {isModal && <Modal isModal={isModal} setIsModal={setIsModal} />}
       <div className="container">
         <div className="inner">
           <h1 className="title">
-            <span style={{ textTransform: "capitalize" }}>{items}</span> gilam
-            turlari
+            <span style={{ textTransform: "capitalize" }}>Наши товары</span>
           </h1>
           <div className="cat-cards">
             <div className="cat-item">
-              <span className="status">Yangi</span>
+              <span className="status">Новый</span>
               <div className="imgs">
                 <img src={is_item} alt="" />
               </div>
@@ -39,9 +38,8 @@ export default function Items() {
                     <span style={{ textTransform: "capitalize" }}>
                       {items}
                     </span>{" "}
-                    gilam turlari
                   </h4>
-                  <span>1 298 000 so'm</span>
+                  <span>1 298 000 сум</span>
                 </div>
                 <div className="middle">
                   ID / HN12345{" "}
@@ -53,10 +51,10 @@ export default function Items() {
                   />
                 </div>
               </div>
-              <button onClick={() => setIsModal(true)}>Xarid qilish</button>
+              <button onClick={() => setIsModal(true)}>Купить</button>
             </div>
             <div className="cat-item">
-              <span className="status">Yangi</span>
+              <span className="status">Новый</span>
               <div className="imgs">
                 <img src={is_item} alt="" />
               </div>
@@ -67,9 +65,8 @@ export default function Items() {
                     <span style={{ textTransform: "capitalize" }}>
                       {items}
                     </span>{" "}
-                    gilam turlari
                   </h4>
-                  <span>1 298 000 so'm</span>
+                  <span>1 298 000 сум</span>
                 </div>
                 <div className="middle">
                   ID / HN12345{" "}
@@ -81,10 +78,10 @@ export default function Items() {
                   />
                 </div>
               </div>
-              <button onClick={() => setIsModal(true)}>Xarid qilish</button>
+              <button onClick={() => setIsModal(true)}>Купить</button>
             </div>
             <div className="cat-item">
-              <span className="status">Yangi</span>
+              <span className="status">Новый</span>
               <div className="imgs">
                 <img src={is_item} alt="" />
               </div>
@@ -95,21 +92,20 @@ export default function Items() {
                     <span style={{ textTransform: "capitalize" }}>
                       {items}
                     </span>{" "}
-                    gilam turlari
                   </h4>
-                  <span>1 298 000 so'm</span>
+                  <span>1 298 000 сум</span>
                 </div>
                 <div className="middle">
-                  ID / HN12345
+                  ID / HN12345{" "}
                   <ReactStars
                     count={5}
                     onChange={ratingChanged}
                     size={24}
                     activeColor="#ffd700"
-                  />{" "}
+                  />
                 </div>
               </div>
-              <button onClick={() => setIsModal(true)}>Xarid qilish</button>
+              <button onClick={() => setIsModal(true)}>Купить</button>
             </div>
           </div>
         </div>
