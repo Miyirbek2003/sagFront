@@ -380,3 +380,8 @@ header {
 .inner:first-child {
   margin-top: 25px;
 }
+
+.about ol img {
+  max-height: 400px;
+  height: 100%;
+}
