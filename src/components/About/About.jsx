@@ -7,7 +7,7 @@ export default function About() {
       <div className="container">
         <div className="inner">
           <div>
-            <div className="about-title">Bizning tariximiz</div>
+            <div className="about-title">О нас</div>
             <p>
               ООО CARPET PLAZA ведет свою деятельность с 2013 г. под известным
               брендом SAG, который является крупной компанией по производству
