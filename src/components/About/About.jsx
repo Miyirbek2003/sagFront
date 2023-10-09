@@ -9,38 +9,36 @@ export default function About() {
           <div>
             <div className="about-title">Bizning tariximiz</div>
             <p>
-              “OKS TECHNOLOGIES” O‘zbekistondagi axborot-kommunikatsiya
-              texnologiyalari sohasidagi yetakchilardan biri bo‘lib, o‘z
-              segmentida 10 yildan ortiq tajribaga ega yuqori toifali
-              mutaxassislar jamoasidir. Biz davlat idoralari va xususiy
-              kompaniyalarning geografik joylashuvi, faoliyat turi, buyurtmaning
-              murakkabligi va yo'nalishidan qat'iy nazar istalgan loyihalarini
-              raqamlashtirish imkoniga egamiz Faoliyat davomida 400 ga yaqin
-              bir-birini takrorlamas muvaffaqiyatli loyihalar bajarilgan bo'lib,
-              ulardan eng yiriklari bilan tanishib chiqishingiz mumkin:
-              O'zbekiston milliy axborot agentligi Kun.uz - O'zbekiston va jahon
-              yangiliklari Eksportchilarga subsidiya berish ERP tizimi
-              Tribuna.uz - Sport yangiliklari Eksportchilar portali va boshqa
-              ko'plab loyihalarimiz hamkorlar hamda foydalanuvchilar tomonidan
-              ijobiy baholanmoqda. Yirik loyihalarimizdan "Apoint" hamda
-              "Finiso" Sturt UP lari hozirgi kunda jahon bozorida o'zining
-              o'rnini egallash uchun shiddat bilan faoliyat olib bormoqda
-              Tugallangan har bir loyihamiz mijozimizning barcha istak va
-              g'oyalarini to'liq o'zida mujassam etgan holda bir qarashda o'zini
-              samarali namoyon etadi. Biz loyihaga ko'lami va turidan qat'iy
-              nazar puxta yondashishni ustuvor vazifa deb bilamiz va amalga
-              oshiramiz. Buning uchun ishni tizimli tashkil qilib, sohaning eng
-              yaxshi mutaxassislarini jalb qilamiz. Biz veb-dasturlash, kreativ
-              dizayn yechimlari sohasidagi xizmatlarni taklif qilamiz. Agarda
-              sizda hali loyiha qanday bo'lishi haqida aniq fikr va qaror mavjud
-              bo'lmasa, biz sizga avvalo, loyiha menejerini biriktiramiz.
-              So'ngra "First concept than design" qonuniyatiga asoslanib,
-              vazifani bajarish uchun loyihani, avvalo, o'rganamiz hamda
-              tajribali mutaxassislar tomonidan konsepsiya ishlab chiqib, loyiha
-              dizayni (eskiz)ni tayyorlaymiz. Bu esa istalgan loyihani
-              muvaffaqiyatli amalaga oshirish garovi bo'ladi. Orzuyingizdagi
-              web-dastur, kreativ ammo qulay dizayn va eng yaxshi mobil ilovani
-              biz bilan birgalikda tayyorlang!
+              ООО CARPET PLAZA ведет свою деятельность с 2013 г. под известным
+              брендом SAG, который является крупной компанией по производству
+              ковров и ковровых изделии . SAG является одним из уникальных
+              предприятий в мире. Все ковры ткутся на высокотехнологичном
+              немецком, бельгийском, швейцарским оборудовании с использованием
+              высококачественного и экологически чистого сырья и материалов ,
+              что обеспечивает высокий уровень качество наших продукции. В нашем
+              Шоу-руме(2-вариант нашей компании) имеются широкий ассортимент
+              ковровых изделии который соответствует каждому по индивидуальному
+              желанию. Вы можете у нас найти не только ковер а также имеются
+              искусственные газоны, тафтинговые паласы, а так же резиновые
+              ковровые изделия которые предназначены для ванной комнаты и пр. На
+              нашем сайте вы можете приобрести высококачественный ковер по
+              оптовой цене. Наши преимущества -удобная покупка, вас всегда ждут
+              акции, скидки, своевременная и бесплатная доставка, гарантия на
+              изделия, без проблемный обмен и возврат. Нашей главной задачей
+              является доставлять качественные ковровые изделия. Самое главное у
+              нас каждому индивидуальный подход, наши дизайнеры-продавцы помогут
+              каждому выбрать по интерьеру нужный ковер, который будет служить
+              долговечно. Наша компания предлагает лучшие коллекции ковров
+              различной текстуры и размеров! Мы рады приветствовать гостей
+              нашего магазина и готовы предложить огромный ассортимент
+              эксклюзивных ковров от производителей SAG,Tuft & Grass,Belkis. У
+              нас существует эксклюзивное предложения «ПРИМЕРКА НА ДОМ» точнее
+              привезём примерку понравившихся вам вариантов прямо к вам домой. У
+              нас вы всегда можете получить консультацию по любому вопросу,
+              касающемуся выбора ковра! Наша задача - помочь сделать ваш дом ещё
+              красивее и уютнее! Действует система скидок как для первых
+              покупателей, так и для постоянных клиентов! Мы работаем без
+              выходных!
             </p>
           </div>
           <div>
