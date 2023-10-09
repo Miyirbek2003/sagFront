@@ -385,3 +385,41 @@ header {
   max-height: 400px;
   height: 100%;
 }
+
+
+
+.feedbacks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feed-item {
+  width: 100%;
+}
+
+.inner>div.feed {
+  background-color: transparent !important;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+.feed-user {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 10px 0;
+}
+
+.feed-user>img {
+  border-radius: 50%;
+}
+
+.feed-item>p {
+  color: #dfdede;
+  line-height: 25px;
+  font-weight: 400;
+}
