@@ -1,8 +1,10 @@
 import logo from "../assets/logo.png";
 import { BiArrowBack } from "react-icons/bi";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 export default function Header() {
   const { id } = useParams();
+  const navigate = useNavigate();
   return (
     <header>
       {id && (
@@ -10,7 +12,7 @@ export default function Header() {
           <BiArrowBack />
         </button>
       )}
-      <img src={logo} alt="" />
+      <img onClick={() => navigate("/")} src={logo} alt="" />
     </header>
   );
 }

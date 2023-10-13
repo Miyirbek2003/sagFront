@@ -8,6 +8,7 @@ export default function About() {
         <div className="inner">
           <div>
             <div className="about-title">О нас</div>
+
             <p>
               ООО CARPET PLAZA ведет свою деятельность с 2013 г. под известным
               брендом SAG, который является крупной компанией по производству
@@ -42,29 +43,25 @@ export default function About() {
             </p>
           </div>
           <div>
-            <div className="about-title">
-              Gilamni togri yuvish va foydalanish haqida foydali malumotlar
+            <div className="about-title pod">
+              Вымойте ковер правильно и полезно об использовании данные
             </div>
             <ol type="1">
               <li>
-                <div className="li-title">
-                  Haftada bir marta changyutgichda tozalab yuting.
-                </div>
+                <h3>1. Пылесосьте раз в неделю.</h3>
                 <p>
-                  Bu orqali uning orqalarida changlar va sifatni buzuvchi
-                  maddalar to’planmaydi
+                  Сделав это, за ним останется пыль и порча. вещества не
+                  накапливаются
                 </p>
                 <img src={tex1} alt="" />
               </li>
               <li>
-                <div className="li-title">
-                  Haftada bir marta changyutgichda tozalab yuting.
-                </div>
+                <h3>2. Держите духовки проветриваемыми.</h3>
                 <p>
-                  Bu orqali uning orqalarida changlar va sifatni buzuvchi
-                  maddalar to’planmaydi
+                  Постоянно обновляемый воздух Хонани привыкай стоять. К этим
+                  коврам тоже имеет хороший эффект
                 </p>
-                <img src="/src/assets/tex2.png" alt="" />
+                <img src={tex2} alt="" />
               </li>
             </ol>
           </div>

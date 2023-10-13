@@ -18,13 +18,13 @@ export default function Modal({ isModal, setIsModal }) {
               type="text"
               placeholder="Имя"
               name="name"
-              autoComplete="false"
+              autoComplete="off"
             />
             <input
               type="text"
               placeholder="Телефон номер"
               name="phone"
-              autoComplete="false"
+              autoComplete="off"
             />
             <button>Отправить</button>
           </form>
