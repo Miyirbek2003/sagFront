@@ -102,6 +102,7 @@ footer p {
   margin-bottom: 15px;
   font-size: 18px;
   text-align: center;
+  line-height: 25px;
 }
 
 .card-item {
@@ -357,9 +358,9 @@ header {
 }
 
 .about .inner>div>p {
-  text-align: center;
+  text-align: justify;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 23px;
 }
 
 .about ol {
@@ -602,7 +603,9 @@ header {
   font-size: 22px;
 }
 
-
+.about p {
+  text-align: justify;
+}
 .about ol {
   list-style: decimal !important;
 }
@@ -625,4 +628,10 @@ header {
 
 .about li p {
   font-size: 15px;
+}
+
+
+.about .inner p> img{
+  border-radius: 7px;
+  margin: 10px 0;
 }
