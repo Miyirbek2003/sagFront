@@ -45,7 +45,7 @@ export default function AddFeedback() {
             ) : (
               <span className="selected">
                 {" "}
-                <img src={avatar} alt="" /> Elyor
+                <img src={avatar} alt="" /> {selected}
               </span>
             )}
             <span className="angle">
@@ -55,42 +55,29 @@ export default function AddFeedback() {
               <div
                 className="item-item"
                 onClick={() => {
-                  setSelected(`<img src={avatar} alt="" />
-                Abdumalikov Elyor`);
+                  setSelected(`Zarina Yo’ldasheva`);
                 }}
               >
                 <img src={avatar} alt="" />
-                Abdumalikov Elyor
+                Zarina Yo’ldasheva
               </div>
               <div
                 className="item-item"
                 onClick={() => {
-                  setSelected(`<img src={avatar} alt="" />
-                Abdumalikov Elyor`);
+                  setSelected(`Guli Xolmetova`);
                 }}
               >
                 <img src={avatar} alt="" />
-                Abdumalikov Elyor
+                Guli Xolmetova
               </div>
               <div
                 className="item-item"
                 onClick={() => {
-                  setSelected(`<img src={avatar} alt="" />
-              Abdumalikov Elyor`);
+                  setSelected(`Bobur Agzamov`);
                 }}
               >
                 <img src={avatar} alt="" />
-                Abdumalikov Elyor
-              </div>
-              <div
-                className="item-item"
-                onClick={() => {
-                  setSelected(`<img src={avatar} alt="" />
-              Abdumalikov Elyor`);
-                }}
-              >
-                <img src={avatar} alt="" />
-                Abdumalikov Elyor
+                Bobur Agzamov
               </div>
             </div>
           </div>

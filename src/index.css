@@ -98,6 +98,10 @@ footer .social {
   justify-content: space-around;
 }
 
+.social svg {
+  font-size: 25px;
+}
+
 footer p {
   margin-bottom: 15px;
   font-size: 18px;
@@ -501,7 +505,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .selected img {
@@ -514,7 +518,8 @@ header {
   align-items: center;
   font-family: 'Public Sans', sans-serif;
   gap: 7px;
-  background-color: #21499f;
+  background: rgba(106, 171, 218, 0.08);
+
   border-radius: 5px;
   color: white;
   font-weight: 500;
@@ -568,6 +573,25 @@ header {
   background-color: transparent;
 }
 
+.choose:focus .choose::after {
+  animation: movement 1s alternate;
+}
+
+@keyframes movement {
+  0% {
+      border-radius: 100%;
+  }
+
+  50% {
+    width: 75%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+
 .choosen .choose.active::after {
   position: absolute;
   content: "";
@@ -606,6 +630,7 @@ header {
 .about p {
   text-align: justify;
 }
+
 .about ol {
   list-style: decimal !important;
 }
@@ -618,7 +643,6 @@ header {
 }
 
 .about li img {
-  max-width: 200px;
   margin: 0 auto;
 }
 
@@ -631,7 +655,44 @@ header {
 }
 
 
-.about .inner p> img{
+.about .inner p>img {
   border-radius: 7px;
   margin: 10px 0;
+}
+
+
+
+.home .home-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.home .container {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-cards {
+  flex: 2;
+}
+
+.home-cards .card {
+  padding: 15px;
+  max-width: 47%;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgba(23, 54, 122, 1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+  justify-content: center;
+}
+
+.home-cards .card .about-title {
+  font-size: 20px;
 }

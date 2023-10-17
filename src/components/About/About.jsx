@@ -50,7 +50,7 @@ export default function About() {
               постоянных клиентов! Мы работаем без выходных!
             </p>
           </div>
-          {/* <div>
+          <div>
             <div className="about-title pod">
               Вымойте ковер правильно и полезно об использовании данные
             </div>
@@ -71,8 +71,16 @@ export default function About() {
                 </p>
                 <img src={tex2} alt="" />
               </li>
+              <li>
+                <h3>3. Закажите профессиональную чистку.</h3>
+                <p>
+                  Все минимум 1 раз в 1 год профессиональная чистка ковров
+                  служить
+                </p>
+                <img src={tex3} alt="" />
+              </li>
             </ol>
-          </div> */}
+          </div>
         </div>
       </div>
     </main>
