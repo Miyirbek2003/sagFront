@@ -7,7 +7,7 @@ export default function Header() {
   const navigate = useNavigate();
   return (
     <header>
-      {id && (
+      {window.location.pathname != "/" && (
         <button className="back" onClick={() => window.history.back()}>
           <BiArrowBack />
         </button>
