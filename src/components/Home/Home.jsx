@@ -9,23 +9,23 @@ export default function Home() {
     <main className="home">
       <div className="container">
         <div className="about-title">
-          Саг коврики! Отличный выбор для вашего офиса и дома
+          SAG ковры! Отличный выбор для вашего дома и офиса
         </div>
         <div className="home-cards">
           <div className="card" onClick={() => navigate("/category")}>
-            <img src={home1} alt="" />
+            <img src={home1} alt="" loading="lazy" />
             <div className="about-title">Каталог</div>
           </div>
           <div className="card" onClick={() => navigate("/feedback")}>
-            <img src={home2} alt="" />
+            <img src={home2} alt="" loading="lazy" />
             <div className="about-title">Довольные клиенты</div>
           </div>
           <div className="card" onClick={() => navigate("/addfeedback")}>
-            <img src={home3} alt="" />
+            <img src={home3} alt="" loading="lazy" />
             <div className="about-title">Оцените нас</div>
           </div>
           <div className="card" onClick={() => navigate("/about")}>
-            <img src={home4} alt="" />
+            <img src={home4} alt="" loading="lazy" />
             <div className="about-title">О нас </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/addfeedback" element={<AddFeedback />} />
-        <Route path="/category/:id/:items" element={<Items />} />
+        <Route path="/category/:id/:sub_id/:items" element={<Items />} />
       </Route>
     </Routes>
   );
